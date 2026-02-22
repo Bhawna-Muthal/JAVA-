@@ -1,0 +1,36 @@
+2024-12-25 14:46:46.356  WARN 19732 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21h48s417ms692µs200ns).
+2024-12-25 15:27:45.547  WARN 19732 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s696ms901µs800ns).
+2024-12-25 16:24:04.874  WARN 19732 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m49s116ms897µs600ns).
+2024-12-25 20:06:02.494  WARN 19732 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30m2s81ms453µs200ns).
+2024-12-25 20:31:38.708  INFO 19732 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-25 20:31:39.098  INFO 19732 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-25 20:31:39.103  INFO 19732 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-12-25 20:31:39.152  INFO 19732 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25 20:31:39.182  INFO 19732 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-25 20:31:39.190  INFO 19732 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-25 20:31:39.531  INFO 19732 --- [restartedMain] c.e.SbUserManagementProjectApplication   : Starting SbUserManagementProjectApplication using Java 1.8.0_202 on DESKTOP-A03M5OC with PID 19732 (C:\Users\Dell\Desktop\Spring Boot2\SBUserManagementProject\target\classes started by Dell in C:\Users\Dell\Desktop\Spring Boot2\SBUserManagementProject)
+2024-12-25 20:31:39.532  INFO 19732 --- [restartedMain] c.e.SbUserManagementProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-25 20:31:39.946  INFO 19732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-25 20:31:39.960  INFO 19732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2024-12-25 20:31:40.155  INFO 19732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9008 (http)
+2024-12-25 20:31:40.156  INFO 19732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25 20:31:40.157  INFO 19732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-12-25 20:31:40.177  INFO 19732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25 20:31:40.178  INFO 19732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 641 ms
+2024-12-25 20:31:40.255  INFO 19732 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-25 20:31:40.260  INFO 19732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-25 20:31:40.266  INFO 19732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-25 20:31:40.266  INFO 19732 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-12-25 20:31:40.327  INFO 19732 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-25 20:31:40.329  INFO 19732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25 20:31:40.401  WARN 19732 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-25 20:31:40.606  INFO 19732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-25 20:31:40.612  INFO 19732 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-12-25 20:31:40.631  INFO 19732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9008 (http) with context path ''
+2024-12-25 20:31:40.640  INFO 19732 --- [restartedMain] c.e.SbUserManagementProjectApplication   : Started SbUserManagementProjectApplication in 1.17 seconds (JVM running for 99772.28)
+2024-12-25 20:31:40.643  INFO 19732 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-25 20:31:42.588  INFO 19732 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-25 20:31:42.748  INFO 19732 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-25 20:31:42.757  INFO 19732 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25 20:31:42.759  INFO 19732 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-12-25 20:31:42.762  INFO 19732 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
